@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "SixTONES&ME",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "pakagerOpts": {
+		"port":53833
+	},
+      },
+	   "ios": {
+      "bundleIdentifier": "com.Silver2ro.sixtonesandme",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Silver2ro.sixtonesandme",
+      "versionCode": 2,
+	  "permissions": [
+	  "CAMERA",
+      "READ_EXTERNAL_STORAGE"
+    ]
+    }
+  }
+}
